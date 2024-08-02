@@ -1,0 +1,7 @@
+[Desktop Entry]
+
+Name=SKlauncher
+Exec=sklauncher.sh
+Type=Application
+Icon=pl.skmedix.SKlauncher
+Categories=Game;
