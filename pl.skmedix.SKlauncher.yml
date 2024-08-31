@@ -22,15 +22,15 @@ modules:
     sources:
       - type: extra-data
         filename: sklauncher.zip
-        url: https://skmedix.pl/binaries/skl/3.2.9/SKlauncher-3.2.9.zip
-        sha256: b59da874e0303ad3977d07806c98d8455ec469a03936b94f6ec351ef26929111
-        size: 2456049
+        url: https://skmedix.pl/binaries/skl/3.2.10/SKlauncher-3.2.10.zip
+        sha256: 1a25f5bf17f85b4f84f475c59eae362527dff32c68139cd15ac6bf9796f575b2
+        size: 3859314
 
       - type: script
         dest-filename: apply_extra
         commands:
           - unzip sklauncher.zip
-          - rm -f SKlauncher-3.2.exe sklauncher.zip
+          - rm -rf x64 sklauncher.zip
 
       - type: file
         path: sklauncher.sh
