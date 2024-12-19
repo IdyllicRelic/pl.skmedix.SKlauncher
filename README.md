@@ -1,7 +1,6 @@
 # Unofficial flatpak of SKlauncher for minecraft
 To install this flatpak, clone this repo and build it using flatpak builder
 
-Note: It requires flatpak-builder
 ``` bash
 git clone https://github.com/Reizij/pl.skmedix.SKlauncher.git
 cd pl.skmedix.SKlauncher
